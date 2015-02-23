@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <title>Felicites Bakery</title>
+    <link rel="stylesheet" href="css/main.css">
+
+  </head>
+
+
+  <body>
+    <h1>Felicites Bakery</h1>
+    
+    <nav>
+      Go to:
+      <a href="#buttons">Button Elements</a>
+      <a href="#form">Form Elements</a>
+      <a href="#text">Textual Elements</a>
+      <a href="#image">Image Elements</a>
+      <a href="#keygrouping">Key Grouping Elements</a>
+    </nav>
+
+    <section id="buttons">
+      <h2>Button Elements</h2>
+      <ul>
+      <li>CSS selector: a.button </li>
+      <li>Sample Code: 
+        <code>&lt;a href="#" class="button"&gt;Order&lt;/a&gt;</code>
+      <div>
+      <code>&lt;a href="#" class="button"&gt;Back&lt;/a&gt;</code>
+      </div>
+      </li>
+      <li>The component rendered out:
+       <a class="button" href="#">Order</a>
+       <a class="button" href="#">Back</a>
+      </li>
+    </ul>
+    </section>
+
+    <section id="form">
+    <h2>Form Elements</h2> 
+    <ul>
+    <li>CSS selector: form</li>
+    <li>Sample Code: 
+      <code>&lt;div class="input-wrapper"&gt;<br />
+        &lt;label for="form-name"&gt;Name:&lt;/label&gt;<br />
+        &lt;input type="text" id="form-name" placeholder="Name"&gt;<br />
+      &lt;/div&gt;</code>
+    <li>The component rendered out:
+    </form>
+      <div class="input-wrapper">
+        <label for="form-name">Name:</label>
+        <input type="text" id="form-name" placeholder="Name">
+      </div>
+
+        <div class="input-wrapper">
+          <label for="form-subject">Email:</label>
+          <input type="text" id="form-subject" placeholder="123@info.com">
+        </div>
+
+        <div class="input-wrapper">
+          <label for="form-subject">Delivery Address:</label>
+          <input type="text" id="form-subject" placeholder="Address">
+        </div>
+      </form>
+    </li>  
+     </section>
+
+
+    <section id="text">
+      <h3>Textual Elements</h3>
+      <table class="textt">
+      <ul>
+    <li>CSS selector: @font-face</li>
+    <li>Sample Code: 
+      <code>
+        &lt;table&gt;<br />
+        &lt;tr&gt;&lt;td&gt;Font&lt;/td&gt;
+          &lt;td&gt;Lato-Light&lt;/td&gt;&lt;/tr&gt;<br />
+        &lt;tr&gt;&lt;td&gt;Link&lt;/td&gt;&lt;td&gt;PlayFairDisplay&lt;/td&gt;&lt;/tr&gt;<br />
+      &lt;/table&gt;
+    </code>
+    <li>The component rendered out:
+      <table>
+        <tr>
+          <td>Font</td>
+          <td>Lato-Light</td>     
+        </tr>
+        <tr>
+          <td>Link</td>
+          <td>PlayFairDisplay</td>     
+        </tr>
+      </table>
+    </li>
+    </ul>  
+    </section>
+
+    <section id="image">
+      <h2>Image Elements</h2>
+      <ul>
+      <li>CSS selector: img</li>
+      <li>Sample Code: 
+        <code>&lt;img src="img/cake.jpg" height="480" width="600" alt="A cake"&gt;</code>
+        <code>&lt;figcaption&gt;Creamy Cheese Cake&lt;/figcaption&gt;</code>
+      <li>The component rendered out:
+ 
+      <figure>
+
+        <img src="img/cake.jpg" height="480" width="600" alt="A cake">
+        <figcaption>Creamy Cheese Cake</figcaption>
+
+      </figure>
+      </li>
+      </ul>
+    </section>
+
+   <section id="keygrouping">
+    <h2>Key Grouping Elements</h2>
+    <ul>
+      <li>Title: Navigation Style</li>
+      <li>CSS selector: #keygrouping nav a</li>
+      <li>Sample Code:
+        <code>&lt;nav&gt;<br />
+        &lt;a href=""&gt;Home&lt;/a&gt;<br />
+        &lt;a href=""&gt;Cakes&lt;/a&gt;<br />
+        &lt;a href=""&gt;Drinks&lt;/a&gt;<br />
+        &lt;a href=""&gt;About Us&lt;/a&gt;<br />
+        &lt;a href=""&gt;Contact Us&lt;/a&gt;<br />
+        &lt;/nav&gt;</code>
+      </li>
+      <li>The component rendered out:
+        <nav>
+        <a href="">Home</a>
+        <a href="">Cakes</a>
+        <a href="">Drinks</a>
+        <a href="">About Us</a>
+        <a href="">Contact Us</a>
+        </nav>
+      </li>
+    </ul>
+  </section>
+  </body>
+</html>
