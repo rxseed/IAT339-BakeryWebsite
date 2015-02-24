@@ -120,3 +120,12 @@ a:active, a:hover {
 	color: #888888; 
 	text-decoration: none;
 }
+
+
+label{
+	display:block;
+}
+
+.input-wrapper{
+	margin: 0 0 1em 0;
+}
