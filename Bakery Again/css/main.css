@@ -82,18 +82,50 @@ p, ul, ol {
 	text-align: left;
 }
 
-
-img {
-	height: auto; 
-	width: auto;
-	max-width: 100%;
-	border: 1px solid #888888; 
-}
-
-/*img {
+.zoom_img_pastry img{
+	max-width:190px;
+	height: auto;
 	margin: 55px;
+-moz-transition:-moz-transform 0.5s ease-in; 
+-webkit-transition:-webkit-transform 0.5s ease-in; 
+-o-transition:-o-transform 0.5s ease-in;
 }
-*/
+
+.zoom_img_pastry img:hover{
+-moz-transform:scale(1.07); 
+-webkit-transform:scale(1.07);
+-o-transform:scale(1.07);
+}
+
+.zoom_img_birthday img{
+	max-width:250px;
+	height: auto;
+	margin: 45px;
+-moz-transition:-moz-transform 0.5s ease-in; 
+-webkit-transition:-webkit-transform 0.5s ease-in; 
+-o-transition:-o-transform 0.5s ease-in;
+}
+
+.zoom_img_birthday img:hover{
+-moz-transform:scale(1.05); 
+-webkit-transform:scale(1.05);
+-o-transform:scale(1.05);
+}
+
+.zoom_img_wedding img{
+	max-width:230px;
+	height: auto;
+	margin: 45px;
+-moz-transition:-moz-transform 0.5s ease-in; 
+-webkit-transition:-webkit-transform 0.5s ease-in; 
+-o-transition:-o-transform 0.5s ease-in;
+}
+
+.zoom_img_wedding img:hover{
+-moz-transform:scale(1.05); 
+-webkit-transform:scale(1.05);
+-o-transform:scale(1.05);
+}
 
 figure {
 	margin: 0;

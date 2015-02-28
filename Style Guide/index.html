@@ -6,6 +6,7 @@
     <meta charset="utf-8">
     <title>Felicites Bakery</title>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/grid.css">
 
   </head>
 
@@ -49,51 +50,43 @@
         &lt;input type="text" id="form-name" placeholder="Name"&gt;<br />
       &lt;/div&gt;</code>
     <li>The component rendered out:
-    </form>
-      <div class="input-wrapper">
-        <label for="form-name">Name:</label>
-        <input type="text" id="form-name" placeholder="Name">
-      </div>
+    <p>Billing Information</p>
+      
+    <form>
+          <p><label for="form-name"> Card Number</label>
+          <input type = "text" id="form-name"></p>
 
-        <div class="input-wrapper">
-          <label for="form-subject">Email:</label>
-          <input type="text" id="form-subject" placeholder="123@info.com">
-        </div>
+          <p><label for="form-subject"> Card Holder</label>
+          <input type="text" id="form-subject"></p>
+        </form>
 
-        <div class="input-wrapper">
-          <label for="form-subject">Delivery Address:</label>
-          <input type="text" id="form-subject" placeholder="Address">
-        </div>
-      </form>
+        <p> Shipping Information</p>
+        <form>
+          <p><label for="form-name"> Name</label>
+          <input type = "text" id="form-name"></p>
+
+          <p><label for="form-subject"> Address</label>
+          <input type="text" id="form-subject"></p>
+
+          <p><label for="form-subject"> City</label>
+          <input type="text" id="form-subject"></p>
+        </form>
     </li>  
      </section>
 
 
     <section id="text">
       <h3>Textual Elements</h3>
-      <table class="textt">
+      <table class="text">
       <ul>
     <li>CSS selector: @font-face</li>
     <li>Sample Code: 
       <code>
-        &lt;table&gt;<br />
-        &lt;tr&gt;&lt;td&gt;Font&lt;/td&gt;
-          &lt;td&gt;Lato-Light&lt;/td&gt;&lt;/tr&gt;<br />
-        &lt;tr&gt;&lt;td&gt;Link&lt;/td&gt;&lt;td&gt;PlayFairDisplay&lt;/td&gt;&lt;/tr&gt;<br />
-      &lt;/table&gt;
+        &lt;h1&gt;&lt;Felicites Bakery&gt;&lt;/h1&gt;
     </code>
-    <li>The component rendered out:
-      <table>
-        <tr>
-          <td>Font</td>
-          <td>Lato-Light</td>     
-        </tr>
-        <tr>
-          <td>Link</td>
-          <td>PlayFairDisplay</td>     
-        </tr>
-      </table>
-    </li>
+    <li>Title:<h1>Felicites Bakery</h1></li>
+    <li>Content:<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      Praesent quis erat iaculis, scelerisque sem tincidunt, fringilla metus. Pellentesque lobortis ut ex quis malesuada.</p></li>
     </ul>  
     </section>
 
@@ -131,13 +124,30 @@
         &lt;/nav&gt;</code>
       </li>
       <li>The component rendered out:
-        <nav>
-        <a href="">Home</a>
-        <a href="">Cakes</a>
-        <a href="">Drinks</a>
-        <a href="">About Us</a>
-        <a href="">Contact Us</a>
-        </nav>
+    <nav class="grid">
+
+         
+        <div class="col-2of10">
+          <a href="">HOME</a>
+        </div>
+
+        <div class="col-2of10">
+          <a href="" class="green">CAKES</a>
+        </div>
+
+        <div class="col-2of10">
+          <a href="" class="orange">PASTRY</a>
+        </div>
+
+        <div class="col-2of10">
+          <a href="" class="purple">ABOUT US</a>
+        </div>
+
+        <div class="col-2of10">
+          <a href="" class="red">CONTACT</a>
+        </div>
+
+      </nav>
       </li>
     </ul>
   </section>

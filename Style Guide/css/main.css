@@ -8,10 +8,20 @@ h1{
 	font-size:2.5rem;
 }
 
-nav {
+nav a, nav a:visited {
+	font-family: 'Lato-Hairline';
 	display: inline-block;
-	font-size: 1.2rem;
-	padding: 0.5em 0.75em 0.5em 0em;  /* top right bottom left */
+	background-color: #bc6728;
+	color: #FFFFFF;
+	padding: 0.5em 1.25em;
+	text-decoration: none;
+	-webkit-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+}
+
+nav a:hover, nav a:active, nav a:focus {
+	background-color: #f27677;
+	color: white;
 }
 
 figure {
@@ -90,7 +100,6 @@ figcaption {
 
 form {
 	display: inline-block; 
-	background-color: rgb(240, 240, 50);
 	padding: 1em;
 }
 
@@ -142,6 +151,35 @@ table, th, td{
 	text-decoration: none;
 }
 
-#keygrouping nav a:hover{
-	background-color:#f27677;
+#keygrouping nav a, nav a:visited{
+
+	font-family: 'Lato-Hairline';
+	display: inline-block;
+	background-color: #bc6728;
+	color: #FFFFFF;
+	padding: 0.5em 1.25em;
+	text-decoration: none;
+	-webkit-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+}
+
+#keygrouping nav a {
+	width: 100%;
+}
+#keygrouping nav a:hover, nav a:active, nav a:focus {
+	background-color: #f27677;
+	color: white;
+}
+
+form{
+	position:relative;
+	left:80px;
+	margin-bottom: 50px;
+}
+
+form input[type="text"] {
+	position:absolute;
+	left:150px;
+    width: 200px;
+    height: 20px;
 }

@@ -1,0 +1,49 @@
+
+*, *:after, *:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+[class^='col-'] {
+	float: left;
+	padding: 0; 
+	text-align: center; /* center the content in this block */
+}
+
+
+.col-5of10 {
+	width: 100%;
+}
+
+@media (max-width: 50em) {
+
+	.col-5of10 {
+		width: 100%;
+	}
+
+}
+
+
+.col-2of10 {
+	width: 20%;
+}
+
+
+@media (max-width: 30em) {
+
+	.col-2of10 {
+		width: 80%;
+	}
+
+}
+
+
+.grid:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
