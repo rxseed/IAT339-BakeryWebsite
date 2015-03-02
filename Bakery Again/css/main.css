@@ -5,9 +5,10 @@
 }
 
 nav a {
-	width: 100%;
-}
+width: 100%;
 
+}
+/*
 article {
 	text-align: left;
 	margin: 1rem 0; 
@@ -17,21 +18,65 @@ article {
 	box-sizing: border-box;
 	background-color: #FFFFFF;
 }
+*/
+
+
+#FrontPage img {
+	margin-top: 2em;
+	margin-bottom: 8em;
+	
+}
+
+#Birthday img {
+	margin-top: 8em;
+	margin-bottom: 8em;
+	border-radius: 3em;
+	box-shadow: 10px 10px 5px;
+}
+
+#Wedding img {
+	margin-top: 8em;
+	margin-bottom: 8em;
+	border-radius: 3em;
+	box-shadow: 10px 10px 5px;
+}
+
+#Pastry img {
+	margin-top: 8em;
+	margin-bottom: 8em;
+	border-radius: 3em;
+	box-shadow: 10px 10px 5px;
+}
+
+#Customize img {
+	margin-top: 8em;
+	margin-bottom: 8em;
+	border-radius: 3em;
+	box-shadow: 10px 10px 5px;
+}
+
+#AboutUs {
+	
+	margin-top: 15em;
+	margin-bottom: 15em;
+}
 
 nav a, nav a:visited {
 	font-family: 'Lato-Hairline';
 	display: inline-block;
-	background-color: #bc6728;
-	color: #FFFFFF;
+	background-color: white;
+	color: #888888;
 	padding: 0.5em 1.25em;
 	text-decoration: none;
-	-webkit-transition: background-color 0.5s;
-	transition: background-color 0.5s;
+	-webkit-transition: color 0.5s;
+	transition: color 0.5s;
+	
 }
 
 
 #nav :hover ul{
 	display: block;
+
 }
 
 #nav ul{
@@ -41,22 +86,24 @@ nav a, nav a:visited {
 
 
 nav a:hover, nav a:active, nav a:focus {
-	background-color: #f27677;
-	color: white;
+	
+	background-color: white;
+	color: #f27677;
+
 }
 
 
 body {
+
 	font-family: Arial, Verdana, sans-serif;
 	font-size: 1em; 
-	color: black;
+	color: #888888;
 	padding: 1em;
-	background-color: #ebebeb;
+
+	background-color: white;
+
 	overflow-y: scroll;
 }
-
-
-
 
 
 
@@ -75,6 +122,11 @@ h2 a {
 	font-style: none;
 }
 
+h3 {
+
+	font-size: 1.3rem;
+	font-family: 'Lato-Hairline';
+}
 
 p, ul, ol {
 	font-size: 1rem;
@@ -82,8 +134,15 @@ p, ul, ol {
 	text-align: left;
 }
 
+img {
+	height: auto; 
+	width: auto;
+	max-width: 100%;
+	border: 0px solid #888888; 
+}
+
 .zoom_img_pastry img{
-	max-width:190px;
+	max-width: 190px;
 	height: auto;
 	margin: 55px;
 -moz-transition:-moz-transform 0.5s ease-in; 
@@ -98,7 +157,7 @@ p, ul, ol {
 }
 
 .zoom_img_birthday img{
-	max-width:250px;
+	max-width: 250px;
 	height: auto;
 	margin: 45px;
 -moz-transition:-moz-transform 0.5s ease-in; 
@@ -113,7 +172,7 @@ p, ul, ol {
 }
 
 .zoom_img_wedding img{
-	max-width:230px;
+	max-width: 230px;
 	height: auto;
 	margin: 45px;
 -moz-transition:-moz-transform 0.5s ease-in; 
@@ -139,7 +198,8 @@ figcaption {
 
 
 a {
-	color: #007FFF; 
+	color: #007FFF;
+	font-size: 0.8rem; 
 }
 
 

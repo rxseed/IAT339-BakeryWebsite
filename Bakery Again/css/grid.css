@@ -6,6 +6,7 @@
 }
 
 
+
 [class^='col-'] {
 	float: left;
 	padding: 0; 
@@ -14,7 +15,10 @@
 
 
 .col-5of10 {
+	padding-left: 2em;
+	padding-right: 2em;
 	width: 100%;
+	float: left;
 }
 
 @media (max-width: 50em) {
@@ -26,8 +30,12 @@
 }
 
 
+
 .col-2of10 {
-	width: 20%;
+	padding-left: 2em;
+	padding-right: 2em;
+	width: 16.66%;
+	
 }
 
 
@@ -40,11 +48,14 @@
 }
 
 
+
 .grid:after {
 	content: "";
 	display: block;
 	clear: both;
 }
+
+
 
 
 
