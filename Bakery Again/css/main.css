@@ -157,7 +157,7 @@ img {
 }
 
 .zoom_img_birthday img{
-	max-width: 250px;
+	max-width:220px;
 	height: auto;
 	margin: 45px;
 -moz-transition:-moz-transform 0.5s ease-in; 
@@ -220,4 +220,34 @@ label{
 
 .input-wrapper{
 	margin: 0 0 1em 0;
+}
+
+.footer,.footer p{
+	text-align: center;
+	display: block;
+	color:black;
+}
+
+.footer a:link{
+	margin: 20px;
+	text-decoration: none;
+}
+
+.description p{
+	text-align: center;
+}
+
+a.button {
+	text-align: center;
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  color: #FFF;
+  background-color: #333;
+  border-radius: 0.25em;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+a.button:hover, a.button:focus {
+  background-color: #999;
 }
