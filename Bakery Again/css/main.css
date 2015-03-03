@@ -24,15 +24,47 @@ article {
 #FrontPage img {
 	margin-top: 2em;
 	margin-bottom: 8em;
-	
-}
 
+}
 #Birthday img {
 	margin-top: 8em;
 	margin-bottom: 8em;
 	border-radius: 3em;
 	box-shadow: 10px 10px 5px;
+
+
+
+
+	/*
+	position: relative;
+	overflow: hidden;
+	*/
 }
+
+
+
+/*
+.InnerBox {
+	width: 100%;
+	position: absolute;
+	bottom: -60px;
+	background: #FFF;
+	left: 0;
+	-webkit-transition: all 500ms ease-out 0;
+	-moz-transition: all 500ms east-out 0;
+	-o-transition: all 500ms east-out 0;
+	transition: all 500ms east-out 0;
+}
+
+
+
+#Birthday img:hover .InnerBox {
+	bottom: 0;
+	background: rgba(255, 255, 255, .3);
+}
+
+*/
+
 
 #Wedding img {
 	margin-top: 8em;
@@ -157,6 +189,7 @@ img {
 }
 
 .zoom_img_birthday img{
+
 	max-width:220px;
 	height: auto;
 	margin: 45px;
@@ -220,7 +253,7 @@ label{
 
 .input-wrapper{
 	margin: 0 0 1em 0;
-}
+
 
 .footer,.footer p{
 	text-align: center;
@@ -251,3 +284,6 @@ a.button {
 a.button:hover, a.button:focus {
   background-color: #999;
 }
+
+}
+
