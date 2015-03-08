@@ -148,6 +148,12 @@ h3 {
 	font-family: 'Lato-Hairline';
 }
 
+h5{
+	text-align: left;
+	margin-top: 50px;
+	margin-left: 30px;
+}
+
 p, ul, ol {
 	font-size: 1rem;
 	line-height: 1.3em; 
@@ -237,6 +243,7 @@ figcaption {
 	border:1px solid #dcdcdc;
 	display: block;
 	max-width: 150px;
+	max-height:auto;
 	padding:6px 20px;
 	text-shadow:0px 1px 0px #ffffff;
 	margin-top: 15px;

@@ -15,8 +15,10 @@
 
 
 .col-5of10 {
+	margin-top: 100px;
 	padding-left: 2em;
 	padding-right: 2em;
+	padding-bottom: 25em;
 	width: 100%;
 	float: left;
 }
