@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/flexbox.css">
 
   </head>
   <body>
@@ -50,37 +51,44 @@
 
     </header>
 
+<div class="box"> <!-- Starting a different box -->
 
-    
+      <article id="items" class="box-item-article">
+        <div class="box"> <!-- Here we are opening a box in a box; useful for structuring smaller sections -->
 
-    <div class="grid"> 
+          <div class="box-item-article-image"> <!-- Opening up the first item (note the weight) -->
+              <img alt="A kitten" src="img/birthday/birthdaycake1.png">
+          </div>  <!-- Closing the first item -->
 
-      <div class="col-5of10"> 
+        </div> <!-- Closing our box in a box -->
 
-        <article id="kittens">
+      </article>
 
-          <h3>Heart Flower Cake</h3>
 
-          <div class="grid"> 
-            <div class="col-5of10"> 
-                <img alt="Cake" src="img/birthday/birthdaycake1.png">      
-            </div>  
 
-            <div class="col-5of10"> 
-              <div class = "description">
-              <p> A very light, fluffy cake with fresh fruits inside in heart shape.</p>
-              <p> Size: 13''</p>
-              <p> Price: $24.99</p>
-              </div>
-            </div> 
-       <a class="button" href="order.html">Order</a>
-    </div> 
+      <article id="description" class="box-item-article">
 
-        </article>
+        <h2>Heart Cake</h2>
 
-      </div> 
+        <div class="box"> <!-- Opening the box in a box -->
 
- 
+          <div class="box-item-article-text">
+
+            <ul>
+              <li><em>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</em></li>
+              <li>Aliquam tincidunt mauris eu risus.</li>
+            </ul>
+
+            <p>Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien.</p>
+
+            <a class="button" href="myCart.html">Add to Cart</a>
+
+          </div>
+        </div> <!-- Closing the box in a box -->
+
+      </article>
+
+    </div> <!-- Closing the box -->
 
   </body>
 </html>

@@ -1,5 +1,5 @@
 @font-face {
-	font-family: 'Lato-Light';
+	font-family: 'Lato-Hairline';
 	font-weight: normal;
 	font-style: normal;
 }
@@ -32,16 +32,7 @@ article {
 	border-radius: 3em;
 	box-shadow: 10px 10px 5px;
 
-
-
-
-	/*
-	position: relative;
-	overflow: hidden;
-	*/
 }
-
-
 
 /*
 .InnerBox {
@@ -140,7 +131,8 @@ body {
 
 
 h1 {
-	font-size: 3rem; 
+	font-family: 'Lato-Hairline';
+	font-size: 2.5rem; 
 }
 
 
@@ -150,12 +142,8 @@ h2 {
 }
 
 
-h2 a {
-	font-style: none;
-}
-
 h3 {
-
+	margin-top: 50px;
 	font-size: 1.3rem;
 	font-family: 'Lato-Hairline';
 }
@@ -177,15 +165,15 @@ img {
 	max-width: 190px;
 	height: auto;
 	margin: 55px;
--moz-transition:-moz-transform 0.5s ease-in; 
--webkit-transition:-webkit-transform 0.5s ease-in; 
--o-transition:-o-transform 0.5s ease-in;
+	-moz-transition:-moz-transform 0.5s ease-in; 
+	-webkit-transition:-webkit-transform 0.5s ease-in; 
+	-o-transition:-o-transform 0.5s ease-in;
 }
 
 .zoom_img_pastry img:hover{
--moz-transform:scale(1.07); 
--webkit-transform:scale(1.07);
--o-transform:scale(1.07);
+	-moz-transform:scale(1.07); 
+	-webkit-transform:scale(1.07);
+	-o-transform:scale(1.07);
 }
 
 .zoom_img_birthday img{
@@ -193,31 +181,38 @@ img {
 	max-width:220px;
 	height: auto;
 	margin: 45px;
--moz-transition:-moz-transform 0.5s ease-in; 
--webkit-transition:-webkit-transform 0.5s ease-in; 
--o-transition:-o-transform 0.5s ease-in;
+	-moz-transition:-moz-transform 0.5s ease-in; 
+	-webkit-transition:-webkit-transform 0.5s ease-in; 
+	-o-transition:-o-transform 0.5s ease-in;
 }
 
 .zoom_img_birthday img:hover{
--moz-transform:scale(1.05); 
--webkit-transform:scale(1.05);
--o-transform:scale(1.05);
+	-moz-transform:scale(1.05); 
+	-webkit-transform:scale(1.05);
+	-o-transform:scale(1.05);
 }
 
 .zoom_img_wedding img{
 	max-width: 230px;
 	height: auto;
 	margin: 45px;
--moz-transition:-moz-transform 0.5s ease-in; 
--webkit-transition:-webkit-transform 0.5s ease-in; 
--o-transition:-o-transform 0.5s ease-in;
+	-moz-transition:-moz-transform 0.5s ease-in; 
+	-webkit-transition:-webkit-transform 0.5s ease-in; 
+	-o-transition:-o-transform 0.5s ease-in;
 }
 
 .zoom_img_wedding img:hover{
--moz-transform:scale(1.05); 
--webkit-transform:scale(1.05);
--o-transform:scale(1.05);
+	-moz-transform:scale(1.05); 
+	-webkit-transform:scale(1.05);
+	-o-transform:scale(1.05);
 }
+
+.custom_img img{
+	max-width: 150px;
+	height: auto;
+	margin: 35px;
+}
+
 
 figure {
 	margin: 0;
@@ -227,6 +222,31 @@ figure {
 figcaption {
 	font-size: 0.8rem;
 	font-style: italic;
+}
+
+.button {
+	font-size:1em;
+	font-weight: bold; 
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background-color:#f9f9f9;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display: block;
+	max-width: 150px;
+	padding:6px 20px;
+	text-shadow:0px 1px 0px #ffffff;
+	margin-top: 15px;
+	text-decoration:none;
+	text-align: center；
+}
+
+
+a.button:hover {
+	background-color:#e9e9e9;
 }
 
 
@@ -246,44 +266,45 @@ a:active, a:hover {
 	text-decoration: none;
 }
 
+table, tr, th, td{
+	width:700px;
+	height:100px;
+	border:1px black;
+	border-style:double; 
+}
 
-label{
-	display:block;
+table img{
+	width:auto;
+	height:150px;
+
+}
+
+footer{
+  clear: both;
+  color: #666;  
+  width: 100%;
+  text-align: left;
+  background: #F2F2F2;
+  border-top: 1px solid #F2F2F2;  
+  display:inline-block;
+}
+
+footer p{
+	font-size: 0.9em;
+}
+
+.input-wrapper label{
+	display:inline-block;
+	position:absolute;
+	left:250px;
 }
 
 .input-wrapper{
 	margin: 0 0 1em 0;
+｝
 
 
-.footer,.footer p{
-	text-align: center;
-	display: block;
-	color:black;
-}
 
-.footer a:link{
-	margin: 20px;
-	text-decoration: none;
-}
 
-.description p{
-	text-align: center;
-}
 
-a.button {
-	text-align: center;
-  display: inline-block;
-  padding: 0.5em 0.75em;
-  color: #FFF;
-  background-color: #333;
-  border-radius: 0.25em;
-  text-decoration: none;
-  -webkit-transition: background-color 0.5s ease-out;
-  transition: background-color 0.5s ease-out;
-}
-a.button:hover, a.button:focus {
-  background-color: #999;
-}
-
-}
 

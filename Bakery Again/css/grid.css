@@ -29,7 +29,16 @@
 
 }
 
+.col-1of3{
+	padding: 2em;
+	width:33.33%;
+}
 
+@media (max-width: 50em) {
+.col-1of3{
+		width:33.33%;
+	}
+}
 
 .col-2of10 {
 	padding-left: 2em;
