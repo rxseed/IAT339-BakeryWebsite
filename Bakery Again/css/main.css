@@ -268,29 +268,6 @@ a:active, a:hover {
 	text-decoration: none;
 }
 
-.input-wrapper label{
-	display:inline-block;
-	position:absolute;
-	left:250px;
-}
-
-.input-wrapper{
-	margin: 0 0 1em 0;
-｝
-
-table, tr, th, td{
-	width:700px;
-	height:100px;
-	border:1px black;
-	border-style:double; 
-}
-
-table img{
-	width:auto;
-	height:150px;
-
-}
-
 footer{
   clear: both;
   color: #666;  
@@ -303,6 +280,46 @@ footer{
 
 footer p{
 	font-size: 0.9em;
+}
+
+
+
+#orderform{
+	position:relative;
+	left:80px;
+	margin-bottom: 50px;
+}
+
+#orderform input[type="text"] {
+	position:absolute;
+	left:150px;
+    width: 200px;
+    height: 20px;
+}
+
+.input-wrapper label{
+	display:inline-block;
+	position:absolute;
+	left:250px;
+}
+
+.input-wrapper{
+	margin: 0 0 1em 0;
+｝
+
+
+
+table, tr, th, td{
+	width:700px;
+	height:100px;
+	border:1px black;
+	border-style:double; 
+}
+
+table img{
+	width:auto;
+	height:150px;
+
 }
 
 

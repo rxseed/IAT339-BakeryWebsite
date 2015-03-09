@@ -38,9 +38,10 @@ a.button:hover {
 
 nav a, nav a:visited {
 	font-family: 'Lato-Hairline';
+	font-size:1em;
 	display: inline-block;
 	background-color: white;
-	color: #888888;
+	color: #6E6E6E;
 	padding: 0.5em 1.25em;
 	text-decoration: none;
 	-webkit-transition: color 0.5s;
@@ -48,6 +49,9 @@ nav a, nav a:visited {
 	
 }
 
+nav a.current { 
+  border-bottom: 2px solid black;
+}
 
 #nav :hover ul{
 	display: block;
@@ -61,10 +65,9 @@ nav a, nav a:visited {
 
 
 nav a:hover, nav a:active, nav a:focus {
-	
-	background-color: white;
-	color: #f27677;
+	border-bottom: 2px solid black;
 
+}
 
 figure {
 	/* 
@@ -166,34 +169,37 @@ table, th, td{
 */
 
 #keygrouping nav a{
-	display:inline-block;
-	font-size: 1rem;
-	color: white;
-	padding: 0.5em;
-	background-color: #bc6728;
-	width:120px;
-	text-align: center;
+	font-family: 'Lato-Hairline';
+	font-size:1em;
+	display: inline-block;
+	background-color: white;
+	color: #6E6E6E;
+	padding: 0.5em 1.25em;
 	text-decoration: none;
+	-webkit-transition: color 0.5s;
+	transition: color 0.5s;
+	
 }
 
 #keygrouping nav a, nav a:visited{
 
 	font-family: 'Lato-Hairline';
+	font-size:1em;
 	display: inline-block;
-	background-color: #bc6728;
-	color: #FFFFFF;
+	background-color: white;
+	color: #6E6E6E;
 	padding: 0.5em 1.25em;
 	text-decoration: none;
-	-webkit-transition: background-color 0.5s;
-	transition: background-color 0.5s;
+	-webkit-transition: color 0.5s;
+	transition: color 0.5s;
+	
 }
 
 #keygrouping nav a {
 	width: 100%;
 }
 #keygrouping nav a:hover, nav a:active, nav a:focus {
-	background-color: #f27677;
-	color: white;
+	border-bottom: 2px solid black;
 }
 
 form{
