@@ -26,14 +26,14 @@
 }
 
 
-.col-2of10 {
-	width: 20%;
+.col-1of6 {
+	width: 16.66%;
 }
 
 
 @media (max-width: 30em) {
 
-	.col-2of10 {
+	.col-1of6- {
 		width: 80%;
 	}
 

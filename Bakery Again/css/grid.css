@@ -15,10 +15,10 @@
 
 
 .col-5of10 {
-	margin-top: 100px;
+	margin-top: 70px;
 	padding-left: 2em;
 	padding-right: 2em;
-	padding-bottom: 25em;
+	padding-bottom: 20em;
 	width: 100%;
 	float: left;
 }
@@ -43,9 +43,9 @@
 }
 
 .col-2of10 {
-	padding-left: 2em;
-	padding-right: 2em;
-	width: 16.66%;
+		width: 16.66%;
+		padding-left: 1.5em;
+		padding-right: 1.5em;
 	
 }
 

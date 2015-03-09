@@ -8,6 +8,10 @@ nav a {
 width: 100%;
 
 }
+
+nav{
+	margin-top: 5em;
+}
 /*
 article {
 	text-align: left;
@@ -19,6 +23,9 @@ article {
 	background-color: #FFFFFF;
 }
 */
+#confirmationcontent p{
+	text-align: center;
+}
 
 
 #FrontPage img {
@@ -34,27 +41,6 @@ article {
 
 }
 
-/*
-.InnerBox {
-	width: 100%;
-	position: absolute;
-	bottom: -60px;
-	background: #FFF;
-	left: 0;
-	-webkit-transition: all 500ms ease-out 0;
-	-moz-transition: all 500ms east-out 0;
-	-o-transition: all 500ms east-out 0;
-	transition: all 500ms east-out 0;
-}
-
-
-
-#Birthday img:hover .InnerBox {
-	bottom: 0;
-	background: rgba(255, 255, 255, .3);
-}
-
-*/
 
 
 #Wedding img {
@@ -86,9 +72,10 @@ article {
 
 nav a, nav a:visited {
 	font-family: 'Lato-Hairline';
+	font-size:1em;
 	display: inline-block;
 	background-color: white;
-	color: #888888;
+	color: #6E6E6E;
 	padding: 0.5em 1.25em;
 	text-decoration: none;
 	-webkit-transition: color 0.5s;
@@ -96,6 +83,9 @@ nav a, nav a:visited {
 	
 }
 
+nav a.current { 
+  border-bottom: 2px solid black;
+}
 
 #nav :hover ul{
 	display: block;
@@ -109,18 +99,15 @@ nav a, nav a:visited {
 
 
 nav a:hover, nav a:active, nav a:focus {
-	
-	background-color: white;
-	color: #f27677;
+	border-bottom: 2px solid black;
 
 }
-
 
 body {
 
 	font-family: Arial, Verdana, sans-serif;
 	font-size: 1em; 
-	color: #888888;
+	color: #6E6E6E;
 	padding: 1em;
 
 	background-color: white;
@@ -137,15 +124,21 @@ h1 {
 
 
 h2 {
+	font-family: 'Lato-Hairline';
 	font-weight: normal;
 	font-size: 2rem; 
+	text-align: center;
 }
 
 
 h3 {
+	font-family: 'Lato-Hairline';
 	margin-top: 50px;
 	font-size: 1.3rem;
-	font-family: 'Lato-Hairline';
+	text-align:left;
+
+
+	
 }
 
 h5{
@@ -153,6 +146,7 @@ h5{
 	margin-top: 50px;
 	margin-left: 30px;
 }
+
 
 p, ul, ol {
 	font-size: 1rem;
@@ -165,7 +159,7 @@ img {
 	height: auto; 
 	width: auto;
 	max-width: 100%;
-	border: 0px solid #888888; 
+	border: 0px solid #6E6E6E; 
 }
 
 .zoom_img_pastry img{
@@ -270,9 +264,19 @@ a:visited {
 
 
 a:active, a:hover {
-	color: #888888; 
+	color: #6E6E6E; 
 	text-decoration: none;
 }
+
+.input-wrapper label{
+	display:inline-block;
+	position:absolute;
+	left:250px;
+}
+
+.input-wrapper{
+	margin: 0 0 1em 0;
+｝
 
 table, tr, th, td{
 	width:700px;
@@ -301,15 +305,6 @@ footer p{
 	font-size: 0.9em;
 }
 
-.input-wrapper label{
-	display:inline-block;
-	position:absolute;
-	left:250px;
-}
-
-.input-wrapper{
-	margin: 0 0 1em 0;
-｝
 
 
 
