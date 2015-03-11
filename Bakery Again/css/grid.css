@@ -78,16 +78,14 @@
 
 .col-2of10 {
 		width: 16.66%;
-		padding-left: 1.5em;
-		padding-right: 1.5em;
 	
 }
 
 
-@media (max-width: 30em) {
+@media (max-width: 50em) {
 
 	.col-2of10 {
-		width: 80%;
+		width: 100%;
 	}
 
 }
