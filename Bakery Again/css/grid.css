@@ -15,12 +15,13 @@
 
 
 .col-5of10 {
-	margin-top: 70px;
-	padding-left: 2em;
-	padding-right: 2em;
-	padding-bottom: 20em;
-	width: 100%;
-	float: left;
+	margin-top: 170px;
+	padding-left: 0em;
+	padding-right: 5em;
+	padding-bottom: 2em;
+	width: 50%;
+
+	
 }
 
 @media (max-width: 50em) {
@@ -30,6 +31,39 @@
 	}
 
 }
+
+.home-col-5of10 {
+
+	width: 50%;
+}
+
+@media (max-width: 50em) {
+
+	.home-col-5of10 {
+		width: 100%;
+	}
+
+}
+
+
+.home-col-10of10 {
+
+	margin-top: 170px;
+	padding-bottom: 2em;
+	width: 100%;
+	
+}
+
+@media (max-width: 50em) {
+
+	.home-col-10of10 {
+		width: 100%;
+	}
+
+}
+
+
+
 
 .col-1of3{
 	padding: 2em;
@@ -65,8 +99,3 @@
 	display: block;
 	clear: both;
 }
-
-
-
-
-

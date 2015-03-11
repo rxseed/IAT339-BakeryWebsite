@@ -12,56 +12,151 @@ width: 100%;
 nav{
 	margin-top: 5em;
 }
-/*
+
+
 article {
 	text-align: left;
-	margin: 1rem 0; 
+	margin: 0em; 
 	padding: 2rem; 
 	border: 1px solid #dadada;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	background-color: #FFFFFF;
+
 }
-*/
+
+
 #confirmationcontent p{
 	text-align: center;
 }
+
+/*
+#cakeFull {
+	position: absolute; 
+  	top: 10em;
+  	left: 0;
+  	margin: auto; 
+}
+
+
+/*
+.fullbirthday {
+	height: 34em;
+	top: 56em;
+	left: 0em;
+	position:absolute;
+	margin: auto;
+	width: 50%;
+	background-image: url("../img/birthdayCake.jpg");
+	background-size: cover;
+	box-shadow: 0px 0px 15px;
+
+}
+
+.fullwedding {
+	height: 34em;
+	top: 91em;
+	left: 0em;
+	position:absolute;
+	margin: auto;
+	width: 50%;
+	background-image: url("../img/weddingCake.jpg");
+	background-size: cover;
+	box-shadow: 0px 0px 15px;
+}
+
+.fullbread {
+	height: 34em;
+	top: 126em;
+	left: 0em;
+	position:absolute;
+	margin: auto;
+	width: 100%;
+	background-image: url("../img/bread.jpg");
+	background-size: cover;
+	box-shadow: 0px 0px 15px;
+}
+
+.fullbread {
+	height: 34em;
+	top: 126em;
+	left: 0em;
+	position:absolute;
+	margin: auto;
+	width: 100%;
+	background-image: url("../img/bread.jpg");
+	background-size: cover;
+	box-shadow: 0px 0px 15px;
+}
+
+.fullcustom {
+	height: 34em;
+	top: 161em;
+	left: 0em;
+	position:absolute;
+	margin: auto;
+	width: 100%;
+	background-image: url("../img/customize.jpg");
+	background-size: cover;
+	box-shadow: 0px 0px 15px;
+}
+
+*/
+
+
 
 
 #FrontPage img {
 	margin-top: 2em;
 	margin-bottom: 8em;
-
-}
-#Birthday img {
-	margin-top: 8em;
-	margin-bottom: 8em;
-	border-radius: 3em;
-	box-shadow: 10px 10px 5px;
+	position: absolute; 
+  	top: 10em;
+  	left: 0;
+  	
 
 }
 
+#birthdaySpacing {
+	margin-right: 15px;
+	margin-left: 15px;
 
+}
 
-#Wedding img {
-	margin-top: 8em;
-	margin-bottom: 8em;
-	border-radius: 3em;
-	box-shadow: 10px 10px 5px;
+#weddingSpacing {
+	margin-right: 15px;
+	margin-left: 15px;	
+
+}
+
+.centerIMG {
+ 	margin-right: 11%; 
+ 	margin-left: 11%;
 }
 
 #Pastry img {
 	margin-top: 8em;
 	margin-bottom: 8em;
-	border-radius: 3em;
-	box-shadow: 10px 10px 5px;
+
 }
 
 #Customize img {
 	margin-top: 8em;
 	margin-bottom: 8em;
-	border-radius: 3em;
-	box-shadow: 10px 10px 5px;
+	
+}
+
+#leftcolumn { 
+	margin: 5px;
+	width: 300px; 
+	border: 1px 
+	solid red; 
+	float: left}
+
+#rightcolumn { 
+	width: 300px; 
+	border: 1px 
+	solid red; 
+	float: left
 }
 
 #AboutUs {
@@ -128,6 +223,7 @@ h2 {
 	font-weight: normal;
 	font-size: 2rem; 
 	text-align: center;
+	word-wrap: break-word;
 }
 
 
@@ -159,7 +255,8 @@ img {
 	height: auto; 
 	width: auto;
 	max-width: 100%;
-	border: 0px solid #6E6E6E; 
+	border: 0px solid #6E6E6E;
+
 }
 
 .zoom_img_pastry img{
@@ -320,6 +417,21 @@ table img{
 	width:auto;
 	height:150px;
 
+}
+
+footer{
+  top: 180em;
+  clear: both;
+  color: #666;  
+  width: 100%;
+  text-align: left;
+  background: #F2F2F2;
+  border-top: 1px solid #F2F2F2;  
+  display:inline-block;
+}
+
+footer p{
+	font-size: 0.9em;
 }
 
 
